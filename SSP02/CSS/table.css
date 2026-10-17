@@ -1,0 +1,49 @@
+/*=======================================================================================================
+
+  CS2623 SSP02 - table.css
+  Author: Taylor, Ashley
+
+  =======================================================================================================
+     Reference Table
+       Colors:
+            Table Header: #2C3E50 (Dark Blue)
+            Header Text: #FFFFFF (White)
+            Even Row: #F0E6FF (Light Lavender)
+            Odd Row: #E0D4FF (Medium Lavender)
+            Text: #2C3E50 (Dark Blue)
+            Caption Text: #2C3E50 (Dark Blue)
+       Typography:
+            Table Text: 1em "Verdana" (San-Serif)
+========================================================================================================*/
+#weekly-planner {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1.5em auto;
+    font-family: "Verdana", sans-serif;
+}
+
+#weekly-planner caption {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #2C3E50;
+}
+
+#weekly-planner th {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 0.5em;
+    text-align: center;
+    border: 2px solid #2C3E50;
+}
+
+#weekly-planner td {
+    padding: 0.5em;
+    text-align: center;
+    color: #2C3E50;
+    border: 2px solid #2C3E50;
+}
+
+#weekly-planner tr:nth-child(even) td {
+    background-color: #F0E6FF;
+}
