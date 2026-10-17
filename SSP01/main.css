@@ -1,0 +1,176 @@
+/*=======================================================================================================
+
+  CS2623 SSP01,SSP02 - main-old.css
+  Author: Taylor, Ashley
+
+  =======================================================================================================
+     Reference Table
+       Colors:
+            Background: #D8B4FE (Lavender)
+            Header: #2C3E50 (Dark Blue)
+            Nav: #1A0000 (Dark Red)
+            Text: #2C3E50 (Dark Blue)
+            Nav Buttons: #AD4545 (Dusty Rose)
+            Nav Hover: #7FB99A (Mint)
+            Footer: #2C3E50 (Dark Blue)
+            Active Links: #FAA0A0 (Pastel Red)
+
+       Typography:
+            Body: 1em "Verdana" (San-Serif)
+            Headers: 1.5em "Georgia" (Serif)
+            Nav: 1em "Arial" (Sans-Serif)
+========================================================================================================*/
+
+/* Global Styles */
+html{
+    min-height: 100%;
+}
+
+body {
+    background-color: #D8B4FE;
+    font-family: "Verdana", sans-serif;
+    color: #2C3E50;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    color: #2C3E50;
+    font-family: "Georgia", serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 1.5em;
+    color: #2C3E50;
+    text-align: center;
+}
+
+/* Navigation Styles */
+#topNav {
+    background-color: #2C3E50;
+    font-family: "Arial", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Navigation Links*/
+#topNav a {
+    background-color: #AD4545;
+    color: #1A0000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0;
+}
+
+#topNav a:hover {
+    background-color: #7FB99A;
+    color: #1A0000;
+}
+
+/* Links */
+#topNav a.active {
+    color: #1A0000;
+    background-color: #FAA0A0;
+}
+
+/* Footer Styles */
+footer {
+    color: #2C3E50;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+#wrapper {
+    position: relative;
+    display: block;
+    flex: 1 0 auto;
+    margin: 0 20px 20px;
+}
+
+#wrapper main {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 20px;
+    margin: 0;
+}
+
+#leftNav {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    z-index: 1;
+    background-color: #2C3E50;
+    width: 140px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#leftNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#leftNav li {
+    margin-bottom: 10px;
+}
+
+#leftNav li:last-child {
+    margin-bottom: 0;
+}
+
+#leftNav a {
+    display: block;
+    background-color: #AD4545;
+    color: #1A0000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#leftNav a:hover {
+    background-color: #7FB99A;
+    color: #1A0000;
+}
+
+#leftNav a.active {
+    color: #1A0000;
+    background-color: #FAA0A0;
+}
