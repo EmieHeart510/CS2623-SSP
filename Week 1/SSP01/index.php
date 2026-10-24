@@ -16,8 +16,8 @@
         <h1>CS2623 Server-Side Programming</h1>
     </header>
     <nav id="topNav">
-        <a href="../SSP01/index.php">Home</a>
-        <a href="../SSP02/SSP02.php">SSP02</a>
+        <a href="index.php">Home</a>
+        <a href="../../SSP02/SSP02.php">SSP02</a>
         <a href="../SSP03/SSP03.php">SSP03</a>
         <a href="../SSP04/SSP04.php">SSP04</a>
         <a href="../SSP05/SSP05.php">SSP05</a>

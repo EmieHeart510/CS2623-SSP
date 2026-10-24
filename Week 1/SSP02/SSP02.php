@@ -17,7 +17,7 @@
     <meta name="keywords" content="PHP, server-side, CS2623, OCCC">
     <title>CS2623 SSP02: Taylor</title>
     <link rel="stylesheet" href="../SSP01/main.css">
-    <link rel="stylesheet" href="../SSP02/CSS/table.css">
+    <link rel="stylesheet" href="CSS/table.css">
 </head>
 
 <body>
