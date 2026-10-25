@@ -1,0 +1,37 @@
+
+/*========================================================
+
+  CS2623 SSP03 - table.css
+  Author: Taylor, Ashley
+
+  Table Styling:
+    Width: 80%
+    Typography: 1em "Verdana", sans-serif
+    Centered table with collapsed borders
+
+========================================================*/
+
+#weekly-planner {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1.5em auto;
+    font-family: "Verdana", sans-serif;
+}
+
+#weekly-planner caption {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+#weekly-planner th {
+    padding: 0.5em;
+    text-align: center;
+    border: 2px solid;
+}
+
+#weekly-planner td {
+    padding: 0.5em;
+    text-align: center;
+    border: 2px solid;
+}
