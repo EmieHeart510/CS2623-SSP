@@ -1,0 +1,46 @@
+
+/* =========================================================
+   CS2623 - SSP04
+   strings-table.css
+
+   Reference Table Styling
+   Colors:
+     Table Header: #2C3E50 (Dark Blue)
+     Header Text:  #FFFFFF (White)
+     Even Row:     #F0E6FF (Light Lavender)
+     Odd Row:      #E0D4FF (Medium Lavender)
+     Text:         #2C3E50 (Dark Blue)
+
+   Typography:
+     Table Text: 1em Verdana, sans-serif
+   ========================================================= */
+
+#string-results {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 1.5em auto;
+    font-family: Verdana, sans-serif;
+}
+
+#string-results th {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 0.5em;
+    text-align: center;
+    border: 2px solid #2C3E50;
+}
+
+#string-results td {
+    padding: 0.5em;
+    text-align: center;
+    color: #2C3E50;
+    border: 2px solid #2C3E50;
+}
+
+#string-results tr:nth-child(even) td {
+    background-color: #F0E6FF;
+}
+
+#string-results tr:nth-child(odd) td {
+    background-color: #E0D4FF;
+}
