@@ -131,7 +131,7 @@ footer {
     font-family: "Arial", sans-serif;
     font-weight: bold;
     position: fixed;
-    left: 20;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
     box-sizing: border-box;
