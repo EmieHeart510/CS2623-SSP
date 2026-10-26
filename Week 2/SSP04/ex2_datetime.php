@@ -27,7 +27,7 @@ $age_days = $age->days;
 $semester_end = new DateTime('2026-12-18', $tz);
 $semester_end = $semester_end->setTime(23, 59, 59);
 
-if ($semester_end === $now) {
+if ($semester_end > $now) {
     $countdown = $now->diff($semester_end);
     $days_remaining = $countdown->days;
 } else {
