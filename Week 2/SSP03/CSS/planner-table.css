@@ -22,16 +22,24 @@
     font-size: 1em;
     font-weight: bold;
     margin-bottom: 0.5em;
+    color: #2C3E50;
 }
 
 #weekly-planner th {
+    background-color: #2C3E50;
+    color: #FFFFFF;
     padding: 0.5em;
     text-align: center;
-    border: 2px solid;
+    border: 2px solid #2C3E50;
 }
 
 #weekly-planner td {
     padding: 0.5em;
     text-align: center;
-    border: 2px solid;
+    color: #2C3E50;
+    border: 2px solid #2C3E50;
+}
+
+#weekly-planner tr:nth-child(even) td {
+    background-color: #F0E6FF;
 }

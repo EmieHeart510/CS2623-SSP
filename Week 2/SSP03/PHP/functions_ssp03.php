@@ -1,5 +1,5 @@
 <?php
-declare(strict_types=1);
+
 /**
  * Opens the weekly planner table and displays its caption and column headings.
  *
@@ -7,16 +7,16 @@ declare(strict_types=1);
  * @return void
  */
 
-function fn_tableOpen(string $caption): void {
+function fn_tableOpen($caption) {
     $escapedCaption = htmlspecialchars($caption, ENT_QUOTES, 'UTF-8');
 
-    echo '<table id="weekly-planner" border="1" cellpadding="6" cellspacing="0">';
-    echo '<tr style="background-color: #1B2A6B; color: white;">';
+    echo '<table id="weekly-planner">';
+    echo '<tr>';
     echo '<th colspan="3">';
     echo $escapedCaption;
     echo '</th>';
     echo '</tr>';
-    echo '<tr style="background-color: #006B7D; color: white;">';
+    echo '<tr>';
     echo '<th>Day</th>';
     echo '<th>Details</th>';
     echo '<th>Time</th>';
@@ -30,7 +30,7 @@ function fn_tableOpen(string $caption): void {
  *
  */
 
-function fn_tableClose(): void {
+function fn_tableClose() {
     echo '</table>';
 }
 
@@ -43,7 +43,7 @@ function fn_tableClose(): void {
  * @return void
  */
 
-function fn_tableRowCurrent(string $day, string $details, string $time): void {
+function fn_tableRowCurrent($day, $details, $time) {
     $escapedDay = htmlspecialchars($day, ENT_QUOTES, 'UTF-8');
     $escapedDetails = htmlspecialchars($details, ENT_QUOTES, 'UTF-8');
     $escapedTime = htmlspecialchars($time, ENT_QUOTES, 'UTF-8');
@@ -64,7 +64,7 @@ function fn_tableRowCurrent(string $day, string $details, string $time): void {
  * @return void
  */
 
-function fn_tableRow(string $day, string $details, string $time): void {
+function fn_tableRow($day, $details, $time) {
     $escapedDay = htmlspecialchars($day, ENT_QUOTES, 'UTF-8');
     $escapedDetails = htmlspecialchars($details, ENT_QUOTES, 'UTF-8');
     $escapedTime = htmlspecialchars($time, ENT_QUOTES, 'UTF-8');
@@ -83,7 +83,7 @@ function fn_tableRow(string $day, string $details, string $time): void {
  * @return string The weekday name or "Unknown" for invalid input.
  */
 
-function fn_dayOfWeek(int $day_num): string {
+function fn_dayOfWeek($day_num) {
     if ($day_num === 1) {
         return 'Monday';
     } elseif ($day_num === 2) {
@@ -110,7 +110,7 @@ function fn_dayOfWeek(int $day_num): string {
  * @return string The scheduled activity or "No schedule" for invalid input.
  */
 
-function fn_dayDetails(int $day_num): string {
+function fn_dayDetails($day_num) {
     switch ($day_num) {
         case 1:
             return 'PHP lecture — Ch08 Conditionals';
@@ -138,7 +138,7 @@ function fn_dayDetails(int $day_num): string {
  * @return string The scheduled time or "TBD" for invalid input.
  */
 
-function fn_dayTime(int $day_num): string {
+function fn_dayTime($day_num) {
     if ($day_num === 1 || $day_num === 3) {
         return '9:00 AM – 10:20 AM';
     } elseif ($day_num === 2 || $day_num === 4) {

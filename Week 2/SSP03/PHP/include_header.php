@@ -11,7 +11,7 @@
 
     <!-- Shared stylesheet from Week 1 -->
     <link rel="stylesheet" href="../../Week%201/SSP01/main.css">
-    <link rel="stylesheet" href="CSS/table.css">
+    <link rel="stylesheet" href="CSS/planner-table.css">
 </head>
 <body>
 <header>

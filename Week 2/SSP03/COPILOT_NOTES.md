@@ -30,3 +30,17 @@ The implementation was reviewed to ensure all three displayed values were escape
 - Copilot implemented the weekly planner loop in `index.php`. The implementation was improved by using 
 the required `for` loop from 1 through 7, converting the current day to an integer, and highlighting the 
 matching day's row.
+
+## PHP 5 Compatibility Updates for OCCC's Apollo Server
+
+- Removed scalar parameter type declarations, such as `int` and `string`, from the function declarations in 
+`functions_ssp03.php` to support older PHP versions that do not support scalar type hints.
+
+- Removed return type declarations, such as `: string` and `: void`, because PHP 5 does not support return 
+type declarations.
+
+- Preserved the existing function logic and assignment requirements while updating the function declarations for 
+older PHP compatibility.
+
+- These changes were made in response to compatibility errors encountered on the Apollo server. The exact PHP 
+version running on the server has not yet been confirmed.

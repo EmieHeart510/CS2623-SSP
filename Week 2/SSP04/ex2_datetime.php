@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 /**
  * ex2_datetime.php
@@ -53,7 +52,7 @@ $formatted_parsed_date = $parsed_date->format('F j, Y');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Date and Time</title>
-    <link rel="stylesheet" href="../../Week 1/SSP01/main.css">
+    <link rel="stylesheet" href="../../Week%201/SSP01/main.css">
     <link rel="stylesheet" href="CSS/strings-table.css">
 </head>
 
@@ -112,7 +111,7 @@ require_once __DIR__ . "/../../Week 1/SSP02/PHP/include_topNav.php";
 
         &ensp;
         <div>
-            <h3><a href="index.php"><<< Back to SSP04 Landing Page</a></h3>
+            <h3><a href="index.php">&lt;&lt;&lt; Back to SSP04 Landing Page</a></h3>
         </div>
 
     </main>

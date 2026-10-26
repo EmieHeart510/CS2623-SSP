@@ -56,3 +56,17 @@ PHP provides built-in string functions for searching, replacing, converting, mea
 `str_replace()` replaces matching text, `str_contains()` checks whether a string contains a specified substring, 
 `strtolower()` and `strtoupper()` change letter case, `strlen()` returns the string length, and `substr()` extracts 
 part of a string. `sprintf()` formats values into a string, while `number_format()` formats numbers for easier reading.
+
+## PHP 5 Compatibility Updates for OCCC's Apollo Server
+
+- Removed `declare(strict_types=1);` from `ex1_strings.php` and `ex2_datetime.php` to improve compatibility with 
+the older PHP environment on the Apollo server.
+
+- Replaced `str_contains($description, $keyword)` with `strpos($description, $keyword) !== false` in 
+`ex1_strings.php` because `str_contains()` is unavailable in older PHP versions. The replacement checks whether 
+the keyword occurs in the description.
+
+- Preserved the intended string-search behavior while using a function supported by older PHP versions.
+
+- These changes were made in response to compatibility errors encountered on the Apollo server. The exact PHP 
+version running on the server has not yet been confirmed.

@@ -1,13 +1,10 @@
-<?php
-declare(strict_types=1);
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS2623 SSP04: Taylor</title>
-    <link rel="stylesheet" href="../../Week 1/SSP01/main.css">
+    <link rel="stylesheet" href="../../Week%201/SSP01/main.css">
 </head>
 <body>
 <?php
@@ -33,7 +30,7 @@ require_once __DIR__ . '/../../Week 1/SSP02/PHP/include_topNav.php';
 
         &ensp;
 
-        <h2><p><u><b>Please select an exercise below:</b></u></p></h2>
+        <h2><u>Please select an exercise below:</u></h2>
 
         <div class="exercise-links">
             <a href="ex1_strings.php" class="exercise-button">
@@ -52,4 +49,3 @@ require_once __DIR__ . '/../../Week 1/SSP02/PHP/include_footer.php';
 ?>
 </body>
 </html>
-

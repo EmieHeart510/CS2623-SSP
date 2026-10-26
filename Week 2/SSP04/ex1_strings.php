@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 /*
  * ex1_strings.php
  * CS2623 - Server-Side Programming
@@ -14,7 +13,7 @@ declare(strict_types=1);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Strings Functions</title>
-    <link rel="stylesheet" href="../../Week 1/SSP01/main.css">
+    <link rel="stylesheet" href="../../Week%201/SSP01/main.css">
     <link rel="stylesheet" href="CSS/strings-table.css">
 </head>
 
@@ -61,8 +60,9 @@ declare(strict_types=1);
             echo htmlspecialchars($replaced_description, ENT_QUOTES, 'UTF-8');
             echo '</p>';
 
-            // Use str_contains() to check if $description contains "PHP"
-            $contains_keyword = str_contains($description, $keyword);
+
+            // Use strpos() to check if $description contains "PHP"
+            $contains_keyword = strpos($description, $keyword) !== false;
 
             // Use strtolower() to convert the description to lowercase
             $lowercase_description = strtolower($description);
@@ -89,7 +89,7 @@ declare(strict_types=1);
             String Function Results
             </h2>
 
-            <table id="string-results" border="1" cellpadding="8" cellspacing="0">
+            <table id="string-results">
                 <thead>
                     <tr>
                         <th>Function</th>
@@ -196,7 +196,7 @@ declare(strict_types=1);
 
     &ensp;
     <div>
-        <h3><a href="index.php"><<< Back to SSP04 Landing Page</a></h3>
+        <h3><a href="index.php">&lt;&lt;&lt; Back to SSP04 Landing Page</a></h3>
     </div>
 
     <?php
