@@ -1,6 +1,6 @@
 /*=======================================================================================================
 
-  CS2623 SSP01,SSP02 - main.css
+  CS2623 SSP01,SSP02, SSP03, SSP04,SSP05 - main.css
   Author: Taylor, Ashley
 
   =======================================================================================================
@@ -176,4 +176,25 @@ footer {
 #leftNav a.active {
     color: #1A0000;
     background-color: #FAA0A0;
+}
+
+/* Form and Summary Styles */
+.form-wrapper {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 2px solid #2C3E50;
+    border-radius: 12px;
+}
+
+.summary-wrapper {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 2px solid #2C3E50;
+    border-radius: 12px;
 }
