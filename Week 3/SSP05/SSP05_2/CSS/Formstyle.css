@@ -1,0 +1,78 @@
+/*=======================================================================================================
+
+  CS2623 SSP05 - Formstyle.css
+  Author: Taylor, Ashley
+
+  =======================================================================================================
+     Reference Table
+       Colors:
+            Option Tag Background: #E8EDF2 (Light Blue-Gray)
+            Option Tag Text: #2C3E50 (Dark Blue)
+            Option Tag Border: #2C3E50 (Dark Blue)
+
+       Typography:
+            Option Tag Font/Size: Inherits from main.css
+========================================================================================================*/
+
+/* Selected Options Styles */
+.selected-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.option-tag {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #E8EDF2;
+    color: #2C3E50 !important;
+    border: 1px solid #2C3E50;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Center the checkbox and radio groups */
+.checkbox-group,
+.radio-group {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Align buttons and labels in straight columns */
+.checkbox-option,
+.radio-option {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+    text-align: left;
+}
+
+/* Remove default input spacing */
+.checkbox-option input,
+.radio-option input {
+    margin: 0;
+}
+
+/* Center checkbox and radio groups inside the form */
+.form-wrapper .checkbox-group,
+.form-wrapper .radio-group {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Keep the buttons in a straight vertical column */
+.form-wrapper .checkbox-option,
+.form-wrapper .radio-option {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    align-items: center;
+    gap: 8px;
+    width: 200px;
+    margin: 8px 0;
+    text-align: left;
+}
