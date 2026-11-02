@@ -108,19 +108,21 @@ if ($submission !== null) {
 
 <?php
 require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_header.php";
-require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_topNav.php";
+require_once __DIR__ . "/../PHP/include_topNav.php";
 ?>
 
 <div id="wrapper">
 
     <?php
-    require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_leftNav.php";
+    require_once __DIR__ . "/../PHP/include_leftNav.php";
     ?>
 
     <main>
         <header>
             <h1>Exercise 7-1: Personal Info Form</h1>
         </header>
+
+        <h2>This exercise will allow you to submit a personal information form.</h2>
 
         <?php if ($email_error !== ''): ?>
             <p class="error"><?php echo htmlspecialchars($email_error, ENT_QUOTES, 'UTF-8'); ?></p>

@@ -88,13 +88,13 @@ if ($method === 'POST') {
 
 <?php
 require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_header.php";
-require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_topNav.php";
+require_once __DIR__ . "/../PHP/include_topNav.php";
 ?>
 
 <div id="wrapper">
 
     <?php
-    require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_leftNav.php";
+    require_once __DIR__ . "/../PHP/include_leftNav.php";
     ?>
     <main>
 
@@ -104,9 +104,11 @@ require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_topNav.php";
             </h1>
         </header>
 
+        <h2>This exercise will allow you to submit a product order form.</h2>
+
         <div class="form-wrapper">
 
-            <form method="post" action="">
+            <form method="post">
 
                 <!-- Customer Name -->
                 <label for="cust_name">Customer Name:</label>
