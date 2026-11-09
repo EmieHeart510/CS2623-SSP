@@ -2,7 +2,7 @@
 /*
  * SSP02.php - CS2623 Week 1
  * CS2623 - Server-Side Programming
- * Dynamic PHP page with included files.
+ * Dynamic Nav page with included files.
  */
 ?>
 
@@ -41,7 +41,7 @@
             </p>
 
 
-                <!--Display the weekly planner table using PHP include file.-->
+                <!--Display the weekly planner table using Nav include file.-->
                 <?php require_once __DIR__ . "/PHP/include_dynamic_content.php"; ?>
 
         </main>
