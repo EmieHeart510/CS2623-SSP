@@ -113,7 +113,7 @@ function fn_dayOfWeek($day_num) {
 function fn_dayDetails($day_num) {
     switch ($day_num) {
         case 1:
-            return 'PHP lecture — Ch08 Conditionals';
+            return 'Nav lecture — Ch08 Conditionals';
         case 2:
             return 'Lab: SSP03 function library';
         case 3:

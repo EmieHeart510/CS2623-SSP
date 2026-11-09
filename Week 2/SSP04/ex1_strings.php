@@ -3,7 +3,7 @@
  * ex1_strings.php
  * CS2623 - Server-Side Programming
  * SSP04
- * Purpose: Demonstrates the use of strings in PHP.
+ * Purpose: Demonstrates the use of strings in Nav.
  */
 ?>
 
@@ -40,8 +40,8 @@
 
             <?php
             // Define a string variable
-            $description = 'This PHP programming guide teaches beginners useful coding skills.';
-            $keyword = 'PHP';
+            $description = 'This Nav programming guide teaches beginners useful coding skills.';
+            $keyword = 'Nav';
 
             // Display the original description
             echo '<p><strong>Original description:</strong> ';
@@ -61,7 +61,7 @@
             echo '</p>';
 
 
-            // Use strpos() to check if $description contains "PHP"
+            // Use strpos() to check if $description contains "Nav"
             $contains_keyword = strpos($description, $keyword) !== false;
 
             // Use strtolower() to convert the description to lowercase

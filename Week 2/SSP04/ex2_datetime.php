@@ -4,7 +4,7 @@
  * ex2_datetime.php
  * CS2623 - Server-Side Programming
  * SSP04 - Excercise 2
- * Purpose: Demonstrates PHP DateTime and DateInterval functions.
+ * Purpose: Demonstrates Nav DateTime and DateInterval functions.
  */
 
 $tz = new DateTimeZone('America/Chicago');
