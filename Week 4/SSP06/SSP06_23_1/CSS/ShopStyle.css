@@ -1,0 +1,214 @@
+/*=======================================================================================================
+
+    CS2623 SSP06 - ShopStyle.css
+    Author: Taylor, Ashley
+
+    =======================================================================================================
+       Reference Table
+         Colors:
+              Product Card Background: #FFFFFF (White)
+              Product Card Border: #36454F (Charcoal)
+              Heading Text: #000033 (Dark Blue)
+              Button Background: #36454F (Charcoal)
+              Button Text: #FFFFFF (White)
+
+         Typography:
+              Product Names: Inherits from main.css
+              Body Text: Inherits from main.css
+              Headings: Inherits from main.css
+
+========================================================================================================*/
+
+
+/* Product Catalog Styles */
+.product {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #36454F;
+    border-radius: 10px;
+    text-align: center
+}
+
+/* Product Name Styles */
+.product h3 {
+    color: #000033;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Product Price Styles */
+.product p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Product Button Styles */
+.product button {
+    background-color: #36454F;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Product Button Hover Effect */
+.product button:hover {
+    background-color: #000033;
+}
+
+/* Shopping Cart Button Styles */
+#cart button {
+    background-color: #36454F;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Shopping Cart Button Hover Effect */
+#cart button:hover {
+    background-color: #000033;
+}
+
+/* Shopping Cart Table Styles */
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+}
+
+#cart th,
+#cart td {
+    padding: 12px;
+    border: 1px solid #36454F;
+    text-align: center;
+}
+
+#cart th {
+    background-color: #36454F;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#cart tr:last-child {
+    font-weight: bold;
+}
+
+/* Cart Quantity Controls */
+#cart td form {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+/* Shopping Cart Link Styles */
+#cart a {
+    display: inline-block;
+    background-color: #36454F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Shopping Cart Link Hover Effect */
+#cart a:hover {
+    background-color: #000033;
+    color: #FFFFFF;
+}
+
+/* Form Wrapper Styles */
+.form-wrapper {
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    padding: 30px 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #36454F;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Product Card Styles */
+
+
+/* Shopping Cart Styles */
+#cart {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #36454F;
+    border-radius: 10px;
+}
+
+/* Shopping Cart Heading Styles */
+#cart h2 {
+    color: #000033;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+/* Dashboard Link Styles */
+a[href="../SSP06_21_2/dashboard.php"] {
+    display: inline-block;
+    background-color: #36454F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+/* Dashboard Link Hover Effect */
+a[href="../SSP06_21_2/dashboard.php"]:hover {
+    background-color: #000033;
+    color: #FFFFFF;
+}
+
+
+/* Logout Button Styles */
+.logout-button {
+    display: inline-block;
+    width: fit-content;
+    max-width: max-content;
+    background-color: #36454F;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Logout Button Hover Effect */
+.logout-button:hover {
+    background-color: #000033;
+    color: #FFFFFF;
+}
+
+/* Navigation Buttons Wrapper */
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+/* Form Wrapper Styles */

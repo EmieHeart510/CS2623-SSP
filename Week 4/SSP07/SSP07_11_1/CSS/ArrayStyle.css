@@ -1,0 +1,70 @@
+/* ============================================================
+
+   CS2623 SSP07 - ArrayStyle.css
+    Author: Taylor, Ashley
+
+   ============================================================
+         Reference Table
+       Colors:
+            Table Header Background: #2C3E50 (Dark Blue)
+            Table Header Text: #FFFFFF (White)
+            Table Border: #2C3E50 (Dark Blue)
+            Table Background: #FFFFFF (White)
+
+       Typography:
+            Table: Inherits from main.css
+   ============================================================ */
+
+
+
+/* Product Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border: 2px solid #2C3E50;
+}
+
+th {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 12px;
+    border: 1px solid #2C3E50;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #2C3E50;
+}
+
+tr:nth-child(even) {
+    background-color: #E8EDF2;
+}
+
+/* Fruit Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Search Form */
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #2C3E50;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+    background-color: #AD4545;
+    color: #1A0000;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7FB99A;
+}

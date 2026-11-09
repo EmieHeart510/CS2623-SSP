@@ -1,0 +1,127 @@
+/* ============================================================
+   CS2623 SSP07 - ValidationStyle.css
+   Author: Taylor, Ashley
+
+   Reference Table
+   Colors:
+       Form Header Background: #2C3E50 (Dark Blue)
+       Form Header Text: #FFFFFF (White)
+       Form Border: #2C3E50 (Dark Blue)
+       Form Background: #FFFFFF (White)
+       Input Background: #FFFFFF (White)
+       Input Border: #2C3E50 (Dark Blue)
+       Button Background: #AD4545
+       Button Hover: #7FB99A
+
+   Typography:
+       Form: Inherits from main.css
+   ============================================================ */
+
+
+/* Validation Form Wrapper */
+.validation-form-wrapper {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #2C3E50;
+    border-radius: 5px;
+}
+
+
+/* Form Heading */
+.validation-form-wrapper h3 {
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+
+/* Form Labels */
+.validation-form-wrapper label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+
+/* Text Inputs */
+.validation-form-wrapper input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #2C3E50;
+    border-radius: 5px;
+    margin: 5px 0 10px;
+}
+
+
+/* Text Areas */
+.validation-form-wrapper textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #2C3E50;
+    border-radius: 5px;
+    margin: 5px 0 10px;
+    resize: vertical;
+}
+
+
+/* Submit Button */
+.validation-form-wrapper button {
+    background-color: #AD4545;
+    color: #1A0000;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Submit Button Hover */
+.validation-form-wrapper button:hover {
+    background-color: #7FB99A;
+}
+
+
+/* Validation Error Message */
+.validation-form-wrapper .error {
+    background-color: #FCE8E8;
+    border: 1px solid #AD4545;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Validation Error List */
+.validation-form-wrapper .error ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.validation-form-wrapper .error li {
+    padding: 5px 0;
+    margin: 0;
+}
+
+/* Validation Error Heading */
+.validation-form-wrapper .error h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2C3E50;
+    background-color: transparent;
+    padding: 0;
+}
+
+
+/* Successful Validation Message */
+.validation-form-wrapper .success {
+    background-color: #E8EDF2;
+    border: 1px solid #2C3E50;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
