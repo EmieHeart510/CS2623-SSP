@@ -14,6 +14,8 @@
             <li><a href="../../../Week%202/SSP03/index.php">SSP03</a></li>
             <li><a href="../../../Week%202/SSP04/index.php">SSP04</a></li>
             <li><a href="../../../Week%203/SSP05/index.php">SSP05</a></li>
+            <li><a href="../../../Week%204/SSP06/index.php">SSP06</a></li>
+            <li><a href="../../../Week%204/SSP07/index.php">SSP07</a></li>
             <!-- Will add SSP03 through SSP12 as we progress through the course -->
         </ul>
     </nav>

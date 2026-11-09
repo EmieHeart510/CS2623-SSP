@@ -78,9 +78,9 @@ if ($method === 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Taylor, Ashley">
-    <meta name="description" content="CS2623 Server-Side Programming - SSP05_2">
+    <meta name="description" content="CS2623 Server-Side Programming - SSP05 Exercise 7-2">
     <meta name="keywords" content="PHP, server-side, CS2623, OCCC">
-    <title>CS2623 SSP05_2: Taylor</title>
+    <title>CS2623 SSP05 Exercise 7-2: Taylor</title>
     <link rel="stylesheet" href="../../../Week%201/SSP01/main.css">
     <link rel="stylesheet" href="CSS/Formstyle.css">
 </head>
@@ -88,13 +88,13 @@ if ($method === 'POST') {
 
 <?php
 require_once __DIR__ . "/../../../Week 1/SSP02/PHP/include_header.php";
-require_once __DIR__ . "/../PHP/include_topNav.php";
+require_once __DIR__ . "/../Nav/include_topNav.php";
 ?>
 
 <div id="wrapper">
 
     <?php
-    require_once __DIR__ . "/../PHP/include_leftNav.php";
+    require_once __DIR__ . "/../Nav/include_leftNav.php";
     ?>
     <main>
 
