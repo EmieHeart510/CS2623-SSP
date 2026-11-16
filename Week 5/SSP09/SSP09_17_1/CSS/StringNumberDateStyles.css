@@ -1,0 +1,112 @@
+/*=========================================================
+    StringNumberDateStyles.css
+    Author: Taylor, Ashley
+
+    Form Colors:
+        Form Background: #E8EDF2 (Light Blue-Gray)
+        Form Text: #2C3E50 (Dark Blue)
+        Input Background: #FFFFFF (White)
+        Input Text: #2C3E50 (Dark Blue)
+        Input Border: #2C3E50 (Dark Blue)
+        Button Background: #2C3E50 (Dark Blue)
+        Button Text: #FFFFFF (White)
+        Button Hover: #435B70 (Blue-Gray)
+        Form Border: #2C3E50 (Dark Blue)
+
+    Typography:
+        Form Text: 1em Verdana (Sans-Serif)
+        Button Text: Bold 1em Verdana (Sans-Serif)
+=========================================================*/
+
+/* Form and Results Wrappers */
+main form,
+main section {
+    width: 80%;
+    max-width: 750px;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #E8EDF2;
+    border: 2px solid #2C3E50;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Verdana", sans-serif;
+    color: #2C3E50;
+}
+
+/* Exercise Form */
+main form {
+    font-family: "Verdana", sans-serif;
+}
+
+/* Form Labels */
+main form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+/* Form Inputs */
+main form input[type="text"],
+main form input[type="search"],
+main form input[type="number"] {
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.65em;
+    border: 1px solid #2C3E50;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    font: inherit;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+/* Input Focus */
+main form input:focus {
+    outline: 2px solid #2C3E50;
+    outline-offset: 2px;
+}
+
+/* Form Buttons */
+main form button {
+    display: inline-block;
+    width: auto;
+    min-width: 110px;
+    margin: 1em 0 0;
+    padding: 0.65em 1.25em;
+    border: 2px solid #2C3E50;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font: bold 1em "Verdana", sans-serif;
+    cursor: pointer;
+}
+
+/* Button Hover */
+main form button:hover {
+    background-color: #435B70;
+}
+
+/* Results Section Headings */
+main section h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #2C3E50;
+}
+
+/* Results Paragraphs */
+main section p {
+    margin: 0.75em 0;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+}
+
+/* Results Emphasis */
+main section strong {
+    color: #2C3E50;
+}
+
+.padded-number {
+    white-space: pre;
+}

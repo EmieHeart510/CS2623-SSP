@@ -1,0 +1,124 @@
+/*=======================================================================================================
+
+  Control_Structures_Styles.css
+  Author: Taylor, Ashley
+
+  =======================================================================================================
+     Reference Table
+
+       Form Colors:
+            Form Background: #E8EDF2 (Light Blue-Gray)
+            Form Text: #2C3E50 (Dark Blue)
+            Input Background: #FFFFFF (White)
+            Input Text: #2C3E50 (Dark Blue)
+            Input Border: #2C3E50 (Dark Blue)
+            Button Background: #2C3E50 (Dark Blue)
+            Button Text: #FFFFFF (White)
+            Button Hover: #435B70 (Blue-Gray)
+            Form Border: #2C3E50 (Dark Blue)
+
+       Table Colors:
+            Table Header: #2C3E50 (Dark Blue)
+            Header Text: #FFFFFF (White)
+            Even Row: #F0E6FF (Light Lavender)
+            Odd Row: #E0D4FF (Medium Lavender)
+            Table Text: #2C3E50 (Dark Blue)
+            Table Border: #2C3E50 (Dark Blue)
+
+       Typography:
+            Form Text: 1em "Verdana" (Sans-Serif)
+            Input Font: Inherits from Form
+            Button Text: Bold 1em "Verdana" (Sans-Serif)
+            Table Text: Inherits from "Verdana" (Sans-Serif)
+
+========================================================================================================*/
+
+/* Exercise Form */
+form {
+    width: 80%;
+    max-width: 650px;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #E8EDF2;
+    border: 2px solid #2C3E50;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Verdana", sans-serif;
+    color: #2C3E50;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 0.9em 0;
+    font-size: 1em;
+}
+
+form input[type="number"],
+form input[type="text"] {
+    width: 55%;
+    min-width: 0;
+    padding: 0.6em;
+    border: 1px solid #2C3E50;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    outline: 2px solid #2C3E50;
+    outline-offset: 2px;
+}
+
+form button {
+    display: block;
+    min-width: 110px;
+    margin: 1.25em auto 0;
+    padding: 0.65em 1.25em;
+    border: 2px solid #2C3E50;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font: bold 1em "Verdana", sans-serif;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #435B70;
+}
+
+/* Multiplication Table */
+#multiplication-table {
+    width: 80%;
+    max-width: 600px;
+    margin: 1.5em auto;
+    border-collapse: collapse;
+    font-family: "Verdana", sans-serif;
+    color: #2C3E50;
+}
+
+#multiplication-table th {
+    padding: 0.65em;
+    border: 2px solid #2C3E50;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#multiplication-table td {
+    padding: 0.65em;
+    border: 2px solid #2C3E50;
+    text-align: center;
+}
+
+#multiplication-table tr:nth-child(even) td {
+    background-color: #F0E6FF;
+}
+
+#multiplication-table tr:nth-child(odd) td {
+    background-color: #E0D4FF;
+}

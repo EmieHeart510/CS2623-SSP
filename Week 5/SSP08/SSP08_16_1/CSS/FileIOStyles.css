@@ -1,0 +1,188 @@
+/*=========================================================
+    FileIOStyles.css
+    Author: Taylor, Ashley
+
+    Form Colors:
+        Form Background: #E8EDF2 (Light Blue-Gray)
+        Form Text: #2C3E50 (Dark Blue)
+        Input Background: #FFFFFF (White)
+        Input Text: #2C3E50 (Dark Blue)
+        Input Border: #2C3E50 (Dark Blue)
+        Button Background: #2C3E50 (Dark Blue)
+        Button Text: #FFFFFF (White)
+        Button Hover: #435B70 (Blue-Gray)
+        Form Border: #2C3E50 (Dark Blue)
+
+    Typography:
+        Form Text: 1em Verdana (Sans-Serif)
+        Button Text: Bold 1em Verdana (Sans-Serif)
+=========================================================*/
+
+/* Log Entry and Clear Log Forms */
+form {
+    width: 80%;
+    max-width: 650px;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #E8EDF2;
+    border: 2px solid #2C3E50;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Verdana", sans-serif;
+    color: #2C3E50;
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    margin-bottom: 0.75em;
+    font-size: 1em;
+}
+
+/* Text Input */
+form input[type="text"] {
+    display: block;
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 0.65em;
+    border: 1px solid #2C3E50;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #2C3E50;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+/* Input Focus */
+form input:focus {
+    outline: 2px solid #2C3E50;
+    outline-offset: 2px;
+}
+
+/* Form Button Container */
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: nowrap;
+}
+
+/* Form Buttons */
+.form-buttons button {
+    display: inline-block;
+    width: auto;
+    min-width: 110px;
+    margin: 1.25em 0 0;
+    padding: 0.65em 1.25em;
+    border: 2px solid #2C3E50;
+    border-radius: 5px;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    font: bold 1em "Verdana", sans-serif;
+    cursor: pointer;
+}
+
+/* Button Hover */
+form button:hover {
+    background-color: #435B70;
+}
+
+/* Log Contents */
+pre {
+    width: 90%;
+    max-width: 750px;
+    margin: 1.5em auto;
+    padding: 0.65em 1em;
+    background-color: #E8EDF2;
+    border: 1px solid #2C3E50;
+    border-radius: 6px;
+    color: #2C3E50;
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+/* File Information */
+#log-file-info {
+    width: 80%;
+    max-width: 650px;
+    margin: 1em auto;
+    color: #2C3E50;
+    font-family: "Verdana", sans-serif;
+}
+
+/* Download Link */
+#download-log {
+    width: 80%;
+    max-width: 650px;
+    margin: 1em auto;
+    font-family: "Verdana", sans-serif;
+}
+
+/* Download Link Hover */
+#download-log a:hover {
+    color: #435B70;
+}
+
+/* Log Information Wrapper */
+#log-information {
+    width: 80%;
+    max-width: 650px;
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #E8EDF2;
+    border: 2px solid #2C3E50;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: "Verdana", sans-serif;
+    color: #2C3E50;
+}
+
+/* Log Information Headings */
+#log-information h2 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+/* Log Information Paragraphs */
+#log-information p {
+    text-align: center;
+}
+
+/* Directory File List */
+#log-information ul {
+    width: fit-content;
+    margin: 1em auto;
+}
+
+/* Download Link */
+#log-information a {
+    color: #2C3E50;
+    font-weight: bold;
+}
+
+#log-information a:hover {
+    color: #435B70;
+}
+
+/* Directory File Listing */
+.directory-files {
+    width: 100%;
+    text-align: center;
+}
+
+.directory-files p {
+    display: block;
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 0;
+    text-align: center;
+}
+
+#log-information pre {
+    text-align: left;
+}
