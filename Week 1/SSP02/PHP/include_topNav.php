@@ -2,7 +2,7 @@
 /*
  * include_topNav.php
  * CS2623 - Server-Side Programming
- * SSP02
+ * SSP05
  * Purpose: Displays the top horizontal navigation bar.
  *
  */
@@ -15,8 +15,8 @@
     <a href="../../Week%203/SSP05/index.php">SSP05</a>
     <a href="../../Week%204/SSP06/index.php">SSP06</a>
     <a href="../../Week%204/SSP07/index.php">SSP07</a>
-    <a href="../SSP08/SSP08.php">SSP08</a>
-    <a href="../SSP09/SSP09.php">SSP09</a>
+    <a href="../../Week%205/SSP08/index.php">SSP08</a>
+    <a href="../../Week%205/SSP09/index.php">SSP09</a>
     <a href="../SSP10/SSP10.php">SSP10</a>
     <a href="../SSP11/SSP11.php">SSP11</a>
     <a href="../SSP12/SSP12.php">SSP12</a>

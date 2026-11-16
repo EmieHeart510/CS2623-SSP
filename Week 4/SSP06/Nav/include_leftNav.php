@@ -2,7 +2,7 @@
 /*
  * include_leftNav.php
  * CS2623 - Server-Side Programming
- * SSP06
+ * SSP05
  * Purpose: Displays the left vertical navigation bar.
  *
  */
@@ -16,6 +16,8 @@
             <li><a href="../../../Week%203/SSP05/index.php">SSP05</a></li>
             <li><a href="../../../Week%204/SSP06/index.php">SSP06</a></li>
             <li><a href="../../../Week%204/SSP07/index.php">SSP07</a></li>
+            <li><a href="../../../Week%205/SSP08/index.php">SSP08</a></li>
+            <li><a href="../../../Week%205/SSP09/index.php">SSP09</a></li>
             <!-- Will add SSP03 through SSP12 as we progress through the course -->
         </ul>
     </nav>
