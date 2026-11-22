@@ -2,7 +2,7 @@
 session_start();
 
 /*
- * index.php
+ * SSP09.php
  * CS2623 - Server-Side Programming
  * Week 4 - SSP07
  * Exercise 11-1: Arrays
@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Redirect to prevent form resubmission.
-    header('Location: index.php');
+    header('Location: SSP09.php');
     exit();
 }
 

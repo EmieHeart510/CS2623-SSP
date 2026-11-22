@@ -15,5 +15,5 @@ session_start();
 unset($_SESSION['cart']);
 
 // Redirect back to the product catalog.
-header('Location: index.php');
+header('Location: SSP09.php');
 exit;

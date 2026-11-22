@@ -1,6 +1,6 @@
 <?php
 /*
- * index.php
+ * SSP09.php
  * CS2623 - Server-Side Programming
  * Week 4 - SSP06
  * Exercise 23-1: Product Catalog & Shopping Cart
@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Redirect to prevent duplicate form submissions.
-    header('Location: index.php');
+    header('Location: SSP09.php');
     exit;
 }
 

@@ -1,6 +1,6 @@
 <?php
 /*
- * index.php
+ * SSP09.php
  * CS2623 - Server-Side Programming
  * Week 5 - SSP09
  * Author: Taylor, Ashley
@@ -47,6 +47,10 @@ require_once __DIR__ . '/../../Week 1/SSP02/PHP/include_topNav.php';
         <div class="exercise-links">
             <a href="SSP09_17_1/index.php" class="exercise-button">
                 <h3>Exercise 17-1: Strings, Numbers & Dates</h3>
+            </a>
+
+            <a href="../../Week%206/SSP09/SSP09.php" class="exercise-button">
+                <h3>Frosty Word Guessing Game</h3>
             </a>
         </div>
     </main>

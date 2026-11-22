@@ -1,6 +1,6 @@
 <?php
 /*
- * index.php
+ * SSP09.php
  * CS2623 - Server-Side Programming
  * Week 4 - SSP06
  * Author: Taylor, Ashley
